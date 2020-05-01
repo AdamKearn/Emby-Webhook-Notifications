@@ -1,0 +1,15 @@
+{
+  "name": "discord-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Kearn",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2",
+    "time-stamp": "^2.2.0"
+  }
+}
