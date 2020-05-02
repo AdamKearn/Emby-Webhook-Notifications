@@ -50,7 +50,7 @@ function sendWebhook(embeds) {
     method: 'POST',
     json: {
       "username": "Emby",
-      "avatar_url": "https://images-eu.ssl-images-amazon.com/images/I/51WJTxymC6L.png",
+      "avatar_url": "https://emby.media/android-chrome-192x192.png",
       "content": getMentions(),
       "embeds": [embeds]
     }
@@ -72,7 +72,7 @@ function generateEmbed(title, description, color) {
     "color": color,
     "footer": {
       "text": "From",
-      "icon_url": "https://images-eu.ssl-images-amazon.com/images/I/51WJTxymC6L.png"
+      "icon_url": "https://emby.media/favicon-32x32.png"
     },
     "timestamp": `${timestamp('YYYY-MM-DDTHH:mm:ss')}`
   }
