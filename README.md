@@ -5,7 +5,7 @@ How to use the script?
 `-p` or `--ping` takes a string of the username/role that you want to be pinged. e.g. `-p @everyone` or `-p @YourName`
 
 ```
-node /mnt/wd/scripts/Emby-Webhook-Notifications/index.js onAuthenticationFailed \
+node /path/to/Emby-Webhook-Notifications/index.js onAuthenticationFailed \
 -w https://discordapp.com/api/webhooks/...... \
 -d %username%
 ```
